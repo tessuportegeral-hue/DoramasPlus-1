@@ -119,6 +119,7 @@ const Plans = () => {
                 href={plan.checkoutUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => window.fbq && window.fbq('track', 'InitiateCheckout')}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.97 }}
                 className={`w-full block text-center text-white font-bold text-lg py-3 rounded-xl transition-all duration-300 ${colors[plan.color].button}`}
