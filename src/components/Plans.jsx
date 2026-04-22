@@ -17,7 +17,7 @@ const Plans = () => {
     {
       name: "DoramasPlus Padrão",
       price: "15,90",
-      checkoutUrl: "https://doramasplus.com.br/register?plano=mensal",
+      checkoutUrl: "https://doramasplus.com.br/signup?plano=mensal",
       paymentType: "/mês",
       color: "red",
       features: [
@@ -32,7 +32,7 @@ const Plans = () => {
     {
       name: "DoramasPlus Trimestral",
       price: "43,90",
-      checkoutUrl: "https://doramasplus.com.br/register?plano=trimestral",
+      checkoutUrl: "https://doramasplus.com.br/signup?plano=trimestral",
       paymentType: "/3 meses",
       color: "gold",
       highlight: true,
